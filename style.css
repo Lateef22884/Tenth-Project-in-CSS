@@ -801,6 +801,7 @@ ul li a:hover::after {
     .footer .footer5 {
         text-align: left;
         grid-column: auto;
+        padding-left: 0;
     }
     .footer .footer2 {
         padding-left: 0;
@@ -818,8 +819,8 @@ ul li a:hover::after {
         padding: 0 80px;
     }
     .footer .footer5 {
-        text-align: left;
         grid-column: auto;
+        padding-left: 0;
     }
     .footer .footer2 {
         padding-left: 0;
