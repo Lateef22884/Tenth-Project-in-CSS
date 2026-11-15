@@ -800,6 +800,13 @@ ul li a:hover::after {
     }
     .footer .footer5 {
         text-align: left;
+        grid-column: auto;
+    }
+    .footer .footer2 {
+        padding-left: 0;
+    }
+    .footer .footer3 {
+        padding-left: 0;
     }
 }
 
@@ -807,10 +814,17 @@ ul li a:hover::after {
 
 @media (min-width: 601px) and (max-width: 800px) {
     .footer {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         padding: 0 80px;
     }
     .footer .footer5 {
         text-align: left;
+        grid-column: auto;
+    }
+    .footer .footer2 {
+        padding-left: 0;
+    }
+    .footer .footer3 {
+        padding-left: 0;
     }
 }
